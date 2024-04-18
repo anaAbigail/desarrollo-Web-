@@ -1,0 +1,84 @@
+header figure img {
+    width: 146px;
+    height: 163px;
+}
+header figure h1 {
+    width: 662px;
+
+        font-family: "Lilita One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 80px;
+        margin: auto;
+        color: rgb(197, 31, 31);
+    
+
+}
+header figure nav{
+    position :sticky;
+    top: 0;
+}
+.header-content{
+    display: flex; /* Utilizar flexbox para los elementos internos */
+    /*justify-content: center; /* Centrar los elementos horizontalmente */
+    align-items: center; /* Centrar los elementos verticalmente */
+    background-color: #eee42d;
+    margin-bottom: 0px !important;
+}
+
+nav{
+    background-color: #eee42d;
+    text-align: center;
+    position: sticky;
+    top: 50;
+}
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+nav ul {
+    list-style: none;
+}
+li {
+    font-family: 'Lilita One';
+    display: inline-block; /* Mostrar los elementos <li> en línea */
+    
+}
+li a{
+
+
+    display: block;
+    color: rgb(17 55 167);
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+}
+.slogan{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  text-align: center;
+    font-size:30px;
+}
+.card img{
+    width: 350px;
+
+}
+.card{
+    width: 350px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+.card-father{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    gap: 20px;
+}
+
+footer {
+    background-color: #000853;
+    color: antiquewhite;
+    
+}
