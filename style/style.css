@@ -1,6 +1,8 @@
 header figure img {
     width: 146px;
     height: 163px;
+    margin-left: 30px;
+    margin-top: 5px;
 }
 header figure h1 {
     width: 662px;
@@ -20,10 +22,11 @@ header figure nav{
 }
 .header-content{
     display: flex; /* Utilizar flexbox para los elementos internos */
-    /*justify-content: center; /* Centrar los elementos horizontalmente */
+    justify-content: center; /* Centrar los elementos horizontalmente */
     align-items: center; /* Centrar los elementos verticalmente */
     background-color: #eee42d;
     margin-bottom: 0px !important;
+
 }
 
 nav{
@@ -48,7 +51,7 @@ li {
 li a{
 
 
-    display: block;
+    /*display: block;*/
     color: rgb(17 55 167);
     text-align: center;
     padding: 10px 50px;
